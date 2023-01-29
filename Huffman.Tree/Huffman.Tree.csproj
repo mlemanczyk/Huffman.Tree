@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>Huffman.Tree</PackageId>
+		<PackageVersion>0.0.1</PackageVersion>
+		<Authors>Marek Lemańczyk</Authors>
+		<Company>N/A</Company>
+		<Product>Huffman.Tree</Product>
+		<PackageTags>Recyclable Huffman Tree Builder Code Codes</PackageTags>
+		<Description>Huffman.Tree project is an open source package for building &amp; operating Huffman tree &amp; codes. It aims at providing minimal memory footprint.</Description>
+		<PackageProjectUrl>https://github.com/mlemanczyk/Huffman.Tree</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/mlemanczyk/Huffman.Tree</RepositoryUrl>
+		<Copyright>Marek Lemańczyk 2023</Copyright>
+		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryType>git</RepositoryType>
+		<PackageReleaseNotes>First Implementation.</PackageReleaseNotes>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="morelinq" Version="3.3.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\LICENSE.md" Pack="true" PackagePath="" Link="LICENSE.md">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Include="..\README.md" Pack="true" PackagePath="" Link="README.md">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+</Project>
