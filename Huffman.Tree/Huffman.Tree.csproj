@@ -11,8 +11,8 @@
 		<Authors>Marek Lemańczyk</Authors>
 		<Company>N/A</Company>
 		<Product>Huffman.Tree</Product>
-		<PackageTags>Recyclable Huffman Tree Builder Code Codes</PackageTags>
-		<Description>Huffman.Tree project is an open source package for building &amp; operating Huffman tree &amp; codes. It aims at providing minimal memory footprint.</Description>
+		<PackageTags>Recyclable Huffman Tree Builder Code Codes Binary</PackageTags>
+		<Description>Huffman.Tree project is an open source package for building Huffman tree &amp; codes. It aims at providing minimal memory footprint.</Description>
 		<PackageProjectUrl>https://github.com/mlemanczyk/Huffman.Tree</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/mlemanczyk/Huffman.Tree</RepositoryUrl>
 		<Copyright>Marek Lemańczyk 2023</Copyright>
